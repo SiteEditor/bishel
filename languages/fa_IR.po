@@ -1,0 +1,620 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bonyan Sanat Project\n"
+"POT-Creation-Date: 2017-11-19 17:21+0330\n"
+"PO-Revision-Date: 2017-11-19 17:21+0330\n"
+"Last-Translator: \n"
+"Language-Team: Site Editor Team <info@siteeditor.org>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: archive-bos_brand.php:38 archive-bos_project.php:38
+#: archive-knowledge_base.php:107 archive.php:84 index.php:72 search.php:44
+msgid "Previous page"
+msgstr "صفحه قبلی"
+
+#: archive-bos_brand.php:39 archive-bos_project.php:39
+#: archive-knowledge_base.php:108 archive.php:85 index.php:73 search.php:45
+msgid "Next page"
+msgstr "صفحه بعدی"
+
+#: archive-bos_brand.php:40 archive-bos_project.php:40
+#: archive-knowledge_base.php:109 archive.php:86 index.php:74 search.php:46
+msgid "Page"
+msgstr "برگه"
+
+#: functions.php:315 site-editor/modules/posts/skins/default/sed_posts.php:38
+#: site-editor/modules/posts/skins/skin1/sed_posts.php:38
+#: site-editor/modules/posts/skins/skin2/sed_posts.php:38
+msgid "Not found result"
+msgstr "هیچ نتیجه ای پیدا نشد."
+
+#: header.php:36
+msgid "Skip to content"
+msgstr ""
+
+#: inc/woocommerce.php:72
+msgid "Details"
+msgstr "جزئیات"
+
+#: inc/woocommerce.php:78
+msgid "Features"
+msgstr "خصوصیات"
+
+#: inc/woocommerce.php:93
+msgid "Technical Information"
+msgstr "اطلاعات تخصصی"
+
+#: index.php:38
+msgid "Blog"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:21
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:51
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: single.php:43
+#, php-format
+msgid "By: %s"
+msgstr ""
+
+#: single.php:45
+#, php-format
+msgid "%s Comments"
+msgstr ""
+
+#: single.php:78
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:78
+msgid "Previous"
+msgstr ""
+
+#: single.php:79
+msgid "Next Post"
+msgstr ""
+
+#: single.php:79
+msgid "Next"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:22
+#: site-editor/modules/applicate/applicate.php:152
+msgid "Applicate"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:23
+msgid "single of a applicate"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:53
+msgid "Applicate Settings"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:66
+msgid "Is First"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:97
+#: site-editor/modules/posts/posts.php:165
+#: site-editor/modules/terms/terms.php:227
+msgid "Select Post Type"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:98
+#: site-editor/modules/applicate/applicate.php:106
+msgid "Select Type of Applicate"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:105
+msgid "Select Type"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:108
+msgid "Tab"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:109
+msgid "Content"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:116
+#: site-editor/modules/applicate/applicate.php:117
+#: site-editor/modules/posts/posts.php:193
+#: site-editor/modules/posts/posts.php:194
+msgid "Excerpt Length"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:126
+#: site-editor/modules/in-btn-back/in-btn-back.php:61
+#: site-editor/modules/posts/posts.php:293
+#: site-editor/modules/terms/terms.php:245
+msgid "Animation Settings"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:136
+#: site-editor/modules/in-btn-back/in-btn-back.php:56
+#: site-editor/modules/posts/posts.php:303
+#: site-editor/modules/terms/terms.php:255
+msgid "Module Wrapper Settings"
+msgstr ""
+
+#: site-editor/modules/applicate/applicate.php:153
+msgid "List of applicate for built-in and custom post types"
+msgstr ""
+
+#: site-editor/modules/applicate/skins/default/sed_applicate.php:40
+msgid "Applicate Group"
+msgstr "کاربردها"
+
+#: site-editor/modules/applicate/skins/default/sed_applicate.php:103
+msgid "Click to read more"
+msgstr "برای ورود کلیک کنيد"
+
+#: site-editor/modules/applicate/skins/default/sed_applicate.php:123
+msgid "Invalid Data"
+msgstr "داده ها نامعتبر است"
+
+#: site-editor/modules/in-btn-back/in-btn-back.php:19
+#: site-editor/modules/in-btn-back/in-btn-back.php:20
+#: site-editor/modules/in-btn-back/in-btn-back.php:77
+#: site-editor/modules/in-btn-back/in-btn-back.php:94
+#: site-editor/modules/in-btn-back/in-btn-back.php:95
+msgid "Back To Up"
+msgstr "بازگشت به بالا"
+
+#: site-editor/modules/posts/posts.php:22
+#: site-editor/modules/posts/posts.php:319
+msgid "Posts"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:23
+#: site-editor/modules/posts/posts.php:320
+msgid "List of posts for built-in and custom post types"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:107
+msgid "Posts Settings"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:121
+msgid "Image Size Field"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:122
+msgid "This option allows you to set a title for your image."
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:127
+#: site-editor/modules/terms/terms.php:165
+msgid "Show Title"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:138
+#: site-editor/modules/terms/terms.php:176
+msgid "Title"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:139
+#: site-editor/modules/terms/terms.php:177
+msgid "Module Title"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:140
+#: site-editor/modules/terms/terms.php:178
+msgid "Enter Module Title"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:166
+#: site-editor/modules/terms/terms.php:228
+msgid "Select Type of Posts"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:173
+msgid "Offset"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:174
+msgid "Start Posts Of this offset"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:183
+#: site-editor/modules/posts/posts.php:184
+msgid "Number Of Posts"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:209
+#: site-editor/modules/posts/posts.php:219
+#: site-editor/modules/posts/posts.php:220
+#: site-editor/modules/terms/terms.php:199
+#: site-editor/modules/terms/terms.php:209
+#: site-editor/modules/terms/terms.php:210
+msgid "Select Taxonomy"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:248
+msgid "Select Terms"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:249
+msgid "Select Terms for current selected Taxonomy"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:270
+msgid "Show Only Featured Posts"
+msgstr ""
+
+#: site-editor/modules/posts/posts.php:283
+#: site-editor/modules/terms/terms.php:235
+msgid "Change skin"
+msgstr ""
+
+#: site-editor/modules/terms/terms.php:23
+#: site-editor/modules/terms/terms.php:271
+msgid "Terms"
+msgstr ""
+
+#: site-editor/modules/terms/terms.php:24
+#: site-editor/modules/terms/terms.php:272
+msgid "List of terms for built-in and custom taxonomies"
+msgstr ""
+
+#: site-editor/modules/terms/terms.php:151
+msgid "Terms Settings"
+msgstr ""
+
+#: template-parts/custom-post-type/content-brand.php:55
+msgid "View Website"
+msgstr "مشاهده وبسایت"
+
+#: template-parts/custom-post-type/content-knowledgebase.php:63
+msgid "Persian"
+msgstr "فارسی"
+
+#: template-parts/custom-post-type/content-knowledgebase.php:67
+msgid "English"
+msgstr "انگلیسی‌"
+
+#: template-parts/custom-post-type/content-post.php:71
+#: template-parts/custom-post-type/content-project.php:80
+#: woocommerce/content-product.php:88
+msgid "Read More"
+msgstr "بیشتر بخوانید"
+
+#: template-parts/custom-post-type/single-post.php:69
+#: template-parts/custom-post-type/single-post.php:124
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: template-parts/custom-post-type/single-post.php:117
+#: template-parts/custom-post-type/single-project.php:90
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#~ msgid "Read more"
+#~ msgstr "اطلاعات بیشتر"
+
+#~ msgid "Edit Account Info"
+#~ msgstr "ویرایش اطلاعات"
+
+#~ msgid "Change Password"
+#~ msgstr "تغییر رمز عبور"
+
+#~ msgid "My Profile"
+#~ msgstr "حساب کاربری من"
+
+#~ msgid "Logout"
+#~ msgstr "خروج از سیستم"
+
+#~ msgid "Products"
+#~ msgstr "محصولات"
+
+#~ msgid "Done Projects"
+#~ msgstr "پروژه های انجام شده"
+
+#~ msgid "Short Description"
+#~ msgstr "توضیحات کوتاه"
+
+#~ msgid "Description"
+#~ msgstr "توضیحات"
+
+#~ msgid "Employer:"
+#~ msgstr "کارفرما:"
+
+#~ msgid "Date:"
+#~ msgstr "تاریخ:"
+
+#~ msgid "Products..."
+#~ msgstr "محصولات..."
+
+#~ msgid "Products:"
+#~ msgstr "محصولات"
+
+#~ msgid "click here"
+#~ msgstr "اینجا کلیک کنید"
+
+#~ msgid "For more information %1$s click here %2$s"
+#~ msgstr "برای کسب اطلاعات بیشتر، %1$s اینجا را کلیک کنید %2$s"
+
+#~ msgid "Product Catalog Download"
+#~ msgstr "دانلود کاتالوگ محصولات"
+
+#~ msgid "Download"
+#~ msgstr "دانلود"
+
+#~ msgid "Your Last Login %s"
+#~ msgstr "آخرین ورود شما  %s"
+
+#~ msgid "Share on Facebook"
+#~ msgstr "اشتراک گذاری در فیسبوک"
+
+#~ msgid "Share on Twitter"
+#~ msgstr "اشتراک گذاری در تویتر"
+
+#~ msgid "Post Share"
+#~ msgstr "اشتراک گذاری"
+
+#~ msgid "Share on Linkedin"
+#~ msgstr "اشتراک گذاری در لینکدین"
+
+#~ msgid "Share on Pinterest"
+#~ msgstr "اشتراک گذاری در پینترست"
+
+#~ msgid "Share on Google+"
+#~ msgstr "اشتراک در گوگل پلاس"
+
+#~ msgid "In Stock"
+#~ msgstr "موجود"
+
+#~ msgid "Out of Stock"
+#~ msgstr "ناموجود"
+
+#~ msgid "Review Specialists's 70 color"
+#~ msgstr "نقد و بررسی متخصصین هفتاد رنگ"
+
+#~ msgid "Review Specialized"
+#~ msgstr "نقد و بررسی تخصصی"
+
+#~ msgid "Product Attributes"
+#~ msgstr "ویژگی های محصول"
+
+#~ msgid "You must accept term of services if you want to join us."
+#~ msgstr ""
+#~ "شما در صورتی که تمایل دارید به ما ملحق شوید باید شرایط و قوانین استفاده "
+#~ "از سرویس ها را بپذیرید."
+
+#~ msgid "View all my orders"
+#~ msgstr "مشاهده ی تمام سفارش ها"
+
+#~ msgid "Comming Soon!"
+#~ msgstr "به زودی !"
+
+#~ msgid "View my wishlist"
+#~ msgstr " لیست مورد علاقه های من"
+
+#~ msgid "Removed"
+#~ msgstr "حذف شده"
+
+#~ msgid "Error"
+#~ msgstr "خطا"
+
+#~ msgid "Data is invalid"
+#~ msgstr "داده ها نامعتبر است"
+
+#~ msgid "Product ID is not valid."
+#~ msgstr "شناسه ی محصول نامعتبر است."
+
+#~ msgid "You should at least choose one type of notifications."
+#~ msgstr "شما باید حداقل یک نوع اعلان را انتخاب نمایید."
+
+#~ msgid "form not change"
+#~ msgstr "داده های ارسالی تکراری می باشد."
+
+#~ msgid "An error occurred"
+#~ msgstr "یک خطا رخ داده است."
+
+#~ msgid "Success Saved"
+#~ msgstr "داده ها با موفقیت ذخیره شدند."
+
+#~ msgid "Related Products"
+#~ msgstr "محصولات مرتبط"
+
+#~ msgid "Featured Products"
+#~ msgstr "محصولات ویژه"
+
+#~ msgid "Yes"
+#~ msgstr "بله"
+
+#~ msgid "NO"
+#~ msgstr "خیر"
+
+#~ msgid "User Info"
+#~ msgstr "اطلاعات کاربر"
+
+#~ msgid "First & Last Name:"
+#~ msgstr "نام و نام خانوادگی:"
+
+#~ msgid "Phone:"
+#~ msgstr "شماره تلفن ثابت:"
+
+#~ msgid "Gender:"
+#~ msgstr "جنسیت:"
+
+#~ msgid "Email:"
+#~ msgstr "آدرس الکترونیکی:"
+
+#~ msgid "Mobile:"
+#~ msgstr "شماره تلفن همراه:"
+
+#~ msgid "Address:"
+#~ msgstr "محل سکونت:"
+
+#~ msgid "ID cart:"
+#~ msgstr "کد ملی:"
+
+#~ msgid "Birthday:"
+#~ msgstr "تاریخ تولد:"
+
+#~ msgid "Take Newsletter:"
+#~ msgstr "دریافت خبرنامه:"
+
+#~ msgid "User functionality report"
+#~ msgstr "گزارش عملکرد"
+
+#~ msgid "All Orders Count:"
+#~ msgstr "تعداد کل سفارشات:"
+
+#~ msgid "Pending Orders:"
+#~ msgstr "سفارشات در انتظار پرداخت:"
+
+#~ msgid "Processing Orders:"
+#~ msgstr "سفارشات در حال پردازش:"
+
+#~ msgid "On hold Orders:"
+#~ msgstr "سفارشات در انتظار تاييد:"
+
+#~ msgid "Completed Orders:"
+#~ msgstr "سفارشات تکمیل شده:"
+
+#~ msgid "Cancelled Orders:"
+#~ msgstr "سفارشات لغو شده:"
+
+#~ msgid "Refunded Orders:"
+#~ msgstr "سفارشات برگشت خورده:"
+
+#~ msgid "Failed Orders:"
+#~ msgstr "سفارشات ناموفق:"
+
+#~ msgid "Number comments:"
+#~ msgstr "تعداد نظرات:"
+
+#~ msgid "join us"
+#~ msgstr "به ما بپیوندید."
+
+#~ msgid "Username"
+#~ msgstr "نام کاربری"
+
+#~ msgid "Email address"
+#~ msgstr "آدرس ایمیل"
+
+#~ msgid "Anti-spam"
+#~ msgstr "آنتی-اسپم"
+
+#~ msgid "I would like to receive newsletter"
+#~ msgstr "من تمایل دارم خبرنامه ی هفتاد رنگ را دریافت نمایم."
+
+#~ msgid "Product thumbnail"
+#~ msgstr "تصویر محصول"
+
+#~ msgid "Product title"
+#~ msgstr "عنوان محصول"
+
+#~ msgid "notification types"
+#~ msgstr "اعلانات"
+
+#~ msgid "Budget notification"
+#~ msgstr "بودجه مد نظر شما"
+
+#~ msgid "Onsale notification"
+#~ msgstr "پیشنهاد شگفت انگیز"
+
+#~ msgid "No products added in the notifications table."
+#~ msgstr "هیچ محصولی در لیست اعلانات موجود نیست."
+
+#~ msgid "View all notifications"
+#~ msgstr "نمایش همه اعلان ها"
+
+#~ msgid "Notifications"
+#~ msgstr "اطلاع رسانی"
+
+#~ msgid "Remove"
+#~ msgstr "حذف کردن"
+
+#~ msgid "Price:"
+#~ msgstr "قیمت :"
+
+#~ msgid "Buy External"
+#~ msgstr "خرید از سایت های دیگر:"
+
+#~ msgid "Plot Prices Table"
+#~ msgstr "جدول نرخ تغییرات قیمت"
+
+#~ msgid "Buy Success Product"
+#~ msgstr "خرید موفق این محصول:"
+
+#~ msgid "Awaiting product image"
+#~ msgstr "در انتظار تصویر محصول"
+
+#~ msgid "Product short description"
+#~ msgstr "معرفی اجمالی محصول"
+
+#~ msgid "Stock Status:"
+#~ msgstr "وضعیت در انبار:"
+
+#~ msgid "Your price budget"
+#~ msgstr "بودجه ی مد نظر شما:"
+
+#~ msgid "Notify me when this product is equal with my budget"
+#~ msgstr ""
+#~ "زمانی که قیمت این محصول با بودجه ی مد نظر من یکی شد به من اطلاع بده."
+
+#~ msgid "Notify me when this product is onsale"
+#~ msgstr "زمانی که این محصول جزو پیشنهادات شگفت انگیز بود به من اطلاع بده."
+
+#~ msgid "Save"
+#~ msgstr "ذخیره"
+
+#~ msgid "General Attributes"
+#~ msgstr "مشخصات کلی"
+
+#~ msgid "Edit Account Info:"
+#~ msgstr "ویرایش حساب کاربری"
+
+#~ msgid "Change Password:"
+#~ msgstr "تغییر رمز عبور"
+
+#~ msgid "Payment Terms"
+#~ msgstr "پرداخت در محل"
+
+#~ msgid "Delivery"
+#~ msgstr "مهلت تست محصول"
+
+#~ msgid "Origin Guarantee"
+#~ msgstr "تضمین اصالت و کیفیت کالا"
+
+#~ msgid "Return Policy"
+#~ msgstr "روش های ارسال کالا"
+
+#~ msgid "skin is not set."
+#~ msgstr "f"
+
+#~ msgid "Package is not set."
+#~ msgstr "f"
+
+#~ msgid "edit with site editor"
+#~ msgstr "f"
