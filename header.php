@@ -20,6 +20,8 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo8SK7eSkFwa38Tm-z_xe9zQH7yaeaXVI"></script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -32,22 +34,6 @@
 	</div>
 </div>
 
-<?php 
-if( is_home() === false && is_front_page() === true ){
-?>
-<span class="wrapper--load__bar js-load-bar"><span></span></span>
-
-<span class="fake-load-bar"></span>
-
-<div class="wrapper wrapper--load">
-	<span class="mask js-mask-top"></span>
-	<span class="mask js-mask-right"></span>
-	<span class="mask js-mask-bottom"></span>
-	<span class="mask js-mask-left"></span>
-</div>
-<?php
-}
-?>
 
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>

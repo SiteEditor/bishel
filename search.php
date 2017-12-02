@@ -26,19 +26,31 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php
+
 		if ( have_posts() ) :
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
 
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'template-parts/custom-post-type/content-post' );
-				//get_template_part( 'template-parts/post/content', 'excerpt' );
+			get_search_form();
+			?>
 
-			endwhile; // End of the loop.
+			<div class="news-wrapper row" data-sed-role="masonry" data-item-selector=".news-item">
+				<?php
+
+				/* Start the Loop */
+				while ( have_posts() ) : the_post();
+
+					/**
+					 * Run the loop for the search to output the results.
+					 * If you want to overload this in a child theme then include a file
+					 * called content-search.php and that will be used instead.
+					 */
+					get_template_part( 'template-parts/custom-post-type/content-post' );
+					//get_template_part( 'template-parts/post/content', 'excerpt' );
+
+				endwhile; // End of the loop.
+
+				?>
+			</div>
+			<?php
 
 			the_posts_pagination( array(
 				'prev_text' => twentyseventeen_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous page', 'twentyseventeen' ) . '</span>',

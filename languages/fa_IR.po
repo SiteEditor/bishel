@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bonyan Sanat Project\n"
-"POT-Creation-Date: 2017-11-19 17:21+0330\n"
-"PO-Revision-Date: 2017-11-19 17:21+0330\n"
+"POT-Creation-Date: 2017-12-02 10:33+0330\n"
+"PO-Revision-Date: 2017-12-02 10:33+0330\n"
 "Last-Translator: \n"
 "Language-Team: Site Editor Team <info@siteeditor.org>\n"
 "Language: fa_IR\n"
@@ -19,40 +19,75 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: archive-bos_brand.php:38 archive-bos_project.php:38
-#: archive-knowledge_base.php:107 archive.php:84 index.php:72 search.php:44
+#: archive-exhibition.php:58
+msgid "All States"
+msgstr "تمام استان ها"
+
+#: archive-exhibition.php:93
+msgid "All Cities"
+msgstr "همه ی شهر ها"
+
+#: archive-exhibition.php:155 archive.php:84 index.php:72 search.php:56
 msgid "Previous page"
 msgstr "صفحه قبلی"
 
-#: archive-bos_brand.php:39 archive-bos_project.php:39
-#: archive-knowledge_base.php:108 archive.php:85 index.php:73 search.php:45
+#: archive-exhibition.php:156 archive.php:85 index.php:73 search.php:57
 msgid "Next page"
 msgstr "صفحه بعدی"
 
-#: archive-bos_brand.php:40 archive-bos_project.php:40
-#: archive-knowledge_base.php:109 archive.php:86 index.php:74 search.php:46
+#: archive-exhibition.php:157 archive.php:86 index.php:74 search.php:58
 msgid "Page"
 msgstr "برگه"
 
-#: functions.php:315 site-editor/modules/posts/skins/default/sed_posts.php:38
-#: site-editor/modules/posts/skins/skin1/sed_posts.php:38
-#: site-editor/modules/posts/skins/skin2/sed_posts.php:38
-msgid "Not found result"
-msgstr "هیچ نتیجه ای پیدا نشد."
+#: functions.php:286
+msgid "Header Absolute"
+msgstr ""
 
-#: header.php:36
+#: functions.php:287
+msgid "This option allows you to set a Absolute Header for current page"
+msgstr ""
+
+#: functions.php:290
+msgid "Yes"
+msgstr "بله"
+
+#: functions.php:291
+msgid "No"
+msgstr ""
+
+#: functions.php:301
+msgid "Logo type"
+msgstr ""
+
+#: functions.php:302
+msgid "This option allows you to set a Logo be dark or light"
+msgstr ""
+
+#: functions.php:305
+msgid "Dark"
+msgstr ""
+
+#: functions.php:306
+msgid "Light"
+msgstr ""
+
+#: functions.php:334
+msgid "Products"
+msgstr "محصولات"
+
+#: header.php:39
 msgid "Skip to content"
 msgstr ""
 
-#: inc/woocommerce.php:72
+#: inc/woocommerce.php:88
 msgid "Details"
 msgstr "جزئیات"
 
-#: inc/woocommerce.php:78
+#: inc/woocommerce.php:94
 msgid "Features"
 msgstr "خصوصیات"
 
-#: inc/woocommerce.php:93
+#: inc/woocommerce.php:113
 msgid "Technical Information"
 msgstr "اطلاعات تخصصی"
 
@@ -69,7 +104,7 @@ msgstr ""
 msgid "Nothing Found"
 msgstr ""
 
-#: search.php:51
+#: search.php:63
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
@@ -119,8 +154,6 @@ msgid "Is First"
 msgstr ""
 
 #: site-editor/modules/applicate/applicate.php:97
-#: site-editor/modules/posts/posts.php:165
-#: site-editor/modules/terms/terms.php:227
 msgid "Select Post Type"
 msgstr ""
 
@@ -143,22 +176,18 @@ msgstr ""
 
 #: site-editor/modules/applicate/applicate.php:116
 #: site-editor/modules/applicate/applicate.php:117
-#: site-editor/modules/posts/posts.php:193
-#: site-editor/modules/posts/posts.php:194
 msgid "Excerpt Length"
 msgstr ""
 
 #: site-editor/modules/applicate/applicate.php:126
 #: site-editor/modules/in-btn-back/in-btn-back.php:61
-#: site-editor/modules/posts/posts.php:293
-#: site-editor/modules/terms/terms.php:245
+#: site-editor/modules/pcategory/pcategory.php:120
 msgid "Animation Settings"
 msgstr ""
 
 #: site-editor/modules/applicate/applicate.php:136
 #: site-editor/modules/in-btn-back/in-btn-back.php:56
-#: site-editor/modules/posts/posts.php:303
-#: site-editor/modules/terms/terms.php:255
+#: site-editor/modules/pcategory/pcategory.php:130
 msgid "Module Wrapper Settings"
 msgstr ""
 
@@ -186,135 +215,85 @@ msgstr "داده ها نامعتبر است"
 msgid "Back To Up"
 msgstr "بازگشت به بالا"
 
-#: site-editor/modules/posts/posts.php:22
-#: site-editor/modules/posts/posts.php:319
-msgid "Posts"
+#: site-editor/modules/pcategory/pcategory.php:23
+#: site-editor/modules/pcategory/pcategory.php:146
+msgid "PCategory"
 msgstr ""
 
-#: site-editor/modules/posts/posts.php:23
-#: site-editor/modules/posts/posts.php:320
-msgid "List of posts for built-in and custom post types"
+#: site-editor/modules/pcategory/pcategory.php:24
+#: site-editor/modules/pcategory/pcategory.php:147
+msgid "List of pcategory for built-in and custom taxonomies"
 msgstr ""
 
-#: site-editor/modules/posts/posts.php:107
-msgid "Posts Settings"
+#: site-editor/modules/pcategory/pcategory.php:79
+msgid "PCategory Settings"
 msgstr ""
 
-#: site-editor/modules/posts/posts.php:121
-msgid "Image Size Field"
+#: site-editor/modules/pcategory/pcategory.php:100
+msgid "All"
 msgstr ""
 
-#: site-editor/modules/posts/posts.php:122
-msgid "This option allows you to set a title for your image."
+#: site-editor/modules/pcategory/pcategory.php:101
+msgid "Top Level"
 msgstr ""
 
-#: site-editor/modules/posts/posts.php:127
-#: site-editor/modules/terms/terms.php:165
-msgid "Show Title"
+#: site-editor/modules/pcategory/pcategory.php:112
+msgid "Select Parent term"
 msgstr ""
 
-#: site-editor/modules/posts/posts.php:138
-#: site-editor/modules/terms/terms.php:176
-msgid "Title"
+#: site-editor/modules/pcategory/pcategory.php:113
+msgid "Select Parent term, Default is zero"
 msgstr ""
-
-#: site-editor/modules/posts/posts.php:139
-#: site-editor/modules/terms/terms.php:177
-msgid "Module Title"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:140
-#: site-editor/modules/terms/terms.php:178
-msgid "Enter Module Title"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:166
-#: site-editor/modules/terms/terms.php:228
-msgid "Select Type of Posts"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:173
-msgid "Offset"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:174
-msgid "Start Posts Of this offset"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:183
-#: site-editor/modules/posts/posts.php:184
-msgid "Number Of Posts"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:209
-#: site-editor/modules/posts/posts.php:219
-#: site-editor/modules/posts/posts.php:220
-#: site-editor/modules/terms/terms.php:199
-#: site-editor/modules/terms/terms.php:209
-#: site-editor/modules/terms/terms.php:210
-msgid "Select Taxonomy"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:248
-msgid "Select Terms"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:249
-msgid "Select Terms for current selected Taxonomy"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:270
-msgid "Show Only Featured Posts"
-msgstr ""
-
-#: site-editor/modules/posts/posts.php:283
-#: site-editor/modules/terms/terms.php:235
-msgid "Change skin"
-msgstr ""
-
-#: site-editor/modules/terms/terms.php:23
-#: site-editor/modules/terms/terms.php:271
-msgid "Terms"
-msgstr ""
-
-#: site-editor/modules/terms/terms.php:24
-#: site-editor/modules/terms/terms.php:272
-msgid "List of terms for built-in and custom taxonomies"
-msgstr ""
-
-#: site-editor/modules/terms/terms.php:151
-msgid "Terms Settings"
-msgstr ""
-
-#: template-parts/custom-post-type/content-brand.php:55
-msgid "View Website"
-msgstr "مشاهده وبسایت"
-
-#: template-parts/custom-post-type/content-knowledgebase.php:63
-msgid "Persian"
-msgstr "فارسی"
-
-#: template-parts/custom-post-type/content-knowledgebase.php:67
-msgid "English"
-msgstr "انگلیسی‌"
 
 #: template-parts/custom-post-type/content-post.php:71
-#: template-parts/custom-post-type/content-project.php:80
-#: woocommerce/content-product.php:88
 msgid "Read More"
 msgstr "بیشتر بخوانید"
 
-#: template-parts/custom-post-type/single-post.php:69
-#: template-parts/custom-post-type/single-post.php:124
-#, php-format
-msgid "By %s"
-msgstr ""
-
-#: template-parts/custom-post-type/single-post.php:117
-#: template-parts/custom-post-type/single-project.php:90
+#: template-parts/custom-post-type/single-post.php:83
 #, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
+
+#: woocommerce/single-product/share.php:29
+#: woocommerce/single-product/share.php:32
+msgid "Share on "
+msgstr "اشتراک گذاری :"
+
+#: woocommerce/single-product/share.php:32
+msgid "Share on Facebook"
+msgstr "اشتراک گذاری در فیسبوک"
+
+#: woocommerce/single-product/share.php:35
+msgid "Email to a Friend"
+msgstr ""
+
+#: woocommerce/single-product/share.php:36
+msgid "Share on Twitter"
+msgstr "اشتراک گذاری در تویتر"
+
+#: woocommerce/single-product/share.php:37
+msgid "Pin on Pinterest"
+msgstr ""
+
+#: woocommerce/single-product/share.php:37
+msgid "Share on Pinterest"
+msgstr "اشتراک گذاری در پینترست"
+
+#: woocommerce/single-product/share.php:38
+msgid "Share on Google+"
+msgstr "اشتراک در گوگل پلاس"
+
+#~ msgid "Not found result"
+#~ msgstr "هیچ نتیجه ای پیدا نشد."
+
+#~ msgid "View Website"
+#~ msgstr "مشاهده وبسایت"
+
+#~ msgid "Persian"
+#~ msgstr "فارسی"
+
+#~ msgid "English"
+#~ msgstr "انگلیسی‌"
 
 #~ msgid "Read more"
 #~ msgstr "اطلاعات بیشتر"
@@ -330,9 +309,6 @@ msgstr ""
 
 #~ msgid "Logout"
 #~ msgstr "خروج از سیستم"
-
-#~ msgid "Products"
-#~ msgstr "محصولات"
 
 #~ msgid "Done Projects"
 #~ msgstr "پروژه های انجام شده"
@@ -370,23 +346,11 @@ msgstr ""
 #~ msgid "Your Last Login %s"
 #~ msgstr "آخرین ورود شما  %s"
 
-#~ msgid "Share on Facebook"
-#~ msgstr "اشتراک گذاری در فیسبوک"
-
-#~ msgid "Share on Twitter"
-#~ msgstr "اشتراک گذاری در تویتر"
-
 #~ msgid "Post Share"
 #~ msgstr "اشتراک گذاری"
 
 #~ msgid "Share on Linkedin"
 #~ msgstr "اشتراک گذاری در لینکدین"
-
-#~ msgid "Share on Pinterest"
-#~ msgstr "اشتراک گذاری در پینترست"
-
-#~ msgid "Share on Google+"
-#~ msgstr "اشتراک در گوگل پلاس"
 
 #~ msgid "In Stock"
 #~ msgstr "موجود"
@@ -446,9 +410,6 @@ msgstr ""
 
 #~ msgid "Featured Products"
 #~ msgstr "محصولات ویژه"
-
-#~ msgid "Yes"
-#~ msgstr "بله"
 
 #~ msgid "NO"
 #~ msgstr "خیر"

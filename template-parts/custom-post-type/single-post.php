@@ -66,49 +66,11 @@
 
 			<div class="single-post-layout-container clearfix">
 
-				<div class="bos-right-sidebar">
-
-					<div class="sidebar-inner sed-row-boxed">
-
-						<div class="single-author sitem"><?php printf( __( "By %s" ) , get_the_author() ); ?></div>
-
-						<div class="single-date sitem"><?php the_date();?></div>
-
-					</div>
-
-				</div>
-
 				<div class="single-content">
 
 					<div class="single-heading">
 
-						<div class="content-inner">
-
-							<div class="single-heading-inner sed-row-boxed title">
-								<h4><?php the_title(); ?></h4>
-							</div>
-
-						</div>
-
-						<div class="spr-wrap">
-							<div class="spr"></div>
-						</div>
-
-						<div class="content-inner">
-
-							<div class="single-heading-inner sed-row-boxed">
-								<div>
-									<?php
-
-									$post_sub_title = get_post_meta( get_the_ID() , "wpcf-post_sub_title" , true );
-
-									echo apply_filters( 'bsanat_short_description' , $post_sub_title );
-
-									?>
-								</div>
-							</div>
-
-						</div>
+						<h4><?php the_title(); ?></h4>
 
 					</div>
 
@@ -123,10 +85,6 @@
 								) );
 							?>
 						</div><!-- the_content -->
-
-						<div class="sed-row-boxed">
-							<strong class="single-author"><?php printf( __( "By %s" ) , get_the_author() ); ?></strong>
-						</div>
 
 					</div>
 

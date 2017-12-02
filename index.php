@@ -51,7 +51,7 @@ get_header(); ?>
 			<?php
 			if ( have_posts() ) : ?>
 
-				<div class="news-wrapper row" >
+				<div class="news-wrapper row"  data-sed-role="masonry" data-item-selector=".news-item">
 					<?php
 					/* Start the Loop */
 					while ( have_posts() ) : the_post();
