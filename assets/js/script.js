@@ -37,6 +37,60 @@
             }
 
         });
+
+
+
+        /**
+         * upsells
+         */        
+
+        var $rtl = ( $("body").hasClass("rtl-body") ) ? true : false;
+
+        $(".upsells.products .products , .related.products .products").livequery(function(){
+
+            $(this).slick({
+                //mobileFirst         : true ,
+                arrows              : true,
+                slidesToShow        : 3,
+                slidesToScroll      : 3,
+                dots                : true,
+                //centerMode          : false,
+                rtl                 : $rtl,
+                //swipe               : true ,
+                touchMove           : true ,
+                infinite            : false, 
+                prevArrow : '<span class="slide-nav-bt slide-prev"><i class="fa fa-angle-left"></i></span>',
+                nextArrow : '<span class="slide-nav-bt slide-next"><i class="fa fa-angle-right"></i></span>',
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,  
+                        }
+                    },
+                    {
+                        breakpoint: 860,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+
+        });
+
+
         /**
          * Google Map
          */

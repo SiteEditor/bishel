@@ -22,25 +22,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<table class="shop_attributes">
+<div class="shop_attributes">
 	<?php if ( $display_dimensions && $product->has_weight() ) : ?>
-		<tr>
-			<th><?php _e( 'Weight', 'woocommerce' ) ?></th>
-			<td class="product_weight"><?php echo esc_html( wc_format_weight( $product->get_weight() ) ); ?></td>
-		</tr>
+		<div class="shop_attribute_item">
+			<div class="shop_attribute_name"><?php _e( 'Weight :', 'woocommerce' ) ?></div>
+			<div class="shop_attribute_value product_weight"><?php echo esc_html( wc_format_weight( $product->get_weight() ) ); ?></div>
+		</div>
 	<?php endif; ?>
 
 	<?php if ( $display_dimensions && $product->has_dimensions() ) : ?>
-		<tr>
-			<th><?php _e( 'Dimensions', 'woocommerce' ) ?></th>
-			<td class="product_dimensions"><?php echo esc_html( wc_format_dimensions( $product->get_dimensions( false ) ) ); ?></td>
-		</tr>
+		<div class="shop_attribute_item">
+			<div class="shop_attribute_name"><?php _e( 'Dimensions :', 'woocommerce' ) ?></div>
+			<div class="shop_attribute_value product_dimensions"><?php echo esc_html( wc_format_dimensions( $product->get_dimensions( false ) ) ); ?></div>
+		</div>
 	<?php endif; ?>
 
 	<?php foreach ( $attributes as $attribute ) : ?>
-		<tr>
-			<th><?php echo wc_attribute_label( $attribute->get_name() ); ?></th>
-			<td><?php
+		<div class="shop_attribute_item">
+			<div class="shop_attribute_name"><?php echo wc_attribute_label( $attribute->get_name() ); ?> :</div>
+			<div class="shop_attribute_value"><?php
 				$values = array();
 
 				if ( $attribute->is_taxonomy() ) {
@@ -65,7 +65,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				}
 
 				echo apply_filters( 'woocommerce_attribute', wpautop( wptexturize( implode( ', ', $values ) ) ), $attribute, $values );
-			?></td>
-		</tr>
+			?></div>
+		</div>
 	<?php endforeach; ?>
-</table>
+</div>
