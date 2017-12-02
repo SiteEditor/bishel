@@ -185,6 +185,68 @@ a:active {
 }
 
 
+/**
+ *
+ * Loading 
+ */
+
+.preloader {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 20000000;
+}
+
+.arc-rotate .loader {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: transparent;
+}
+
+.loader-container .loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.arc-rotate .loader .arc { 
+    position: absolute;
+    border: 2px solid;
+    border-color: transparent #39b6b8 #39b6b8 #39b6b8;
+    border-radius: 50%;
+    margin: 32%;
+    width: 36%;
+    height: 36%;
+    -webkit-animation: single-arc-rotate 1s infinite linear;
+    animation: single-arc-rotate 1s infinite linear;
+}
+
+@-webkit-keyframes single-arc-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes single-arc-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+
 
 /***************** col *****************/
 
@@ -1646,6 +1708,28 @@ a.woocommerce-LoopProduct-link.woocommerce-loop-product__link img {
     clear: none;
     padding: 0 15px;
 } 
+
+/******************/
+
+body.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+    border-top-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

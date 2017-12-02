@@ -263,6 +263,13 @@
 
 
         /**
+         * Resize
+         */
+
+        setTimeout(function(){$(window).trigger(window.tg_debounce_resize);}, 2000);
+
+
+        /**
          * Loading
          */
         var removePreloader = function() {
