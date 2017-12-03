@@ -1718,18 +1718,89 @@ body.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-chil
 
 
 
+/*body.rtl .tg-grid-wrapper ,
+body.rtl .tg-grid-slider , 
+body.rtl .tg-grid-holder ,
+body.rtl .tg-grid-slider .tg-item {  
+    direction: ltr !important;
+}
+
+body.rtl .tg-grid-slider .tg-item:nth-of-type(2n) {
+    display: block;
+    clear: both;
+}
+*/
+
+.recent-product-slider-wrapper .rp-item-inner {
+    display: inline-block;
+    position: relative;
+}
+
+.recent-product-slider-wrapper .rp-item-inner .rp-item-content {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);    
+    border-top: 5px solid #39b6b8;
+}
+
+.recent-product-slider-wrapper .rp-item-inner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.recent-product-slider-wrapper .rp-item-title,
+.recent-product-slider-wrapper .rp-item-title a { 
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #fff;
+}  
 
 
+.recent-product-slider-wrapper .rp-item-title a:active,
+.recent-product-slider-wrapper .rp-item-title a:focus,
+.recent-product-slider-wrapper .rp-item-title a:hover {
+    color: #fff;
+}
 
+.recent-product-slider-wrapper .rp-item-excerpt {
+    font-size: 13px;
+    color: #000;
+}  
 
+.recent-product-slider-wrapper .rp-item-title, 
+.recent-product-slider-wrapper .rp-item-excerpt {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    display: block;     
+    margin: 0;
+}    
 
+.recent-product-slider-wrapper .rp-item-title:after { 
+    content: "";
+    display: block;
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.5));
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.5));
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.5));
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#00000000',GradientType=1);
+    height: 0.09em !important;
+    margin: 9px 0;
+} 
 
-
-
-
-
-
-
+.recent-product-slider-wrapper .rp-img {
+    display: block; 
+}
 
 
 
