@@ -263,6 +263,47 @@
 
 
         /**
+         * Recent products
+         */
+        $('.recent-product-slider-wrapper').slick({
+            dots                : false,
+            slidesToShow        : 2,
+            slidesToScroll      : 1,
+            arrows              : true,
+            //centerMode          : false,
+            rtl                 : $rtl,
+            //swipe               : true ,
+            touchMove           : true ,
+            infinite            : false,
+            autoplay            : true,
+            autoplaySpeed       : 4500 ,
+            easing              : "easeOutQuad",
+            speed               : 700 ,
+            prevArrow           : '<span class="slide-nav-bt slide-prev"><i class="fa fa-angle-left"></i></span>',
+            nextArrow           : '<span class="slide-nav-bt slide-next"><i class="fa fa-angle-right"></i></span>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow    : 2,
+                        slidesToScroll  : 1
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow    : 1,
+                        slidesToScroll  : 1
+                    }
+                }
+
+                //You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+        /**
          * Resize
          */
 
