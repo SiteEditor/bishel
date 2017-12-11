@@ -85,6 +85,9 @@ function sed_bishel_add_modules( $modules ){
     global $sed_pb_modules;
 
     $module_name = "themes/bishel/site-editor/modules/bishel-products/bishel-products.php";
+    /**
+     * get_module_data( $module_relative_url , $module_path , $markup , $translate)
+     */
     $modules[$module_name] = $sed_pb_modules->get_module_data(get_stylesheet_directory() . '/site-editor/modules/bishel-products/bishel-products.php', true, true);
 
     //$module_name = "themes/tanin/site-editor/modules/in-btn-back/in-btn-back.php";
